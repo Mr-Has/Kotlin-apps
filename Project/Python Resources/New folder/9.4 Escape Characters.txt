@@ -1,0 +1,68 @@
+<h1><span style="color: #000080;">Escape character:</span></h1>
+<p>There are some characters which are reserved by Python (<span style="color: #800000;">=</span>, <span style="color: #800000;">&amp;</span>, etc.) and some others that the programmer cannot use in a string because it will interrupt the program syntax (<span style="color: #800000;">"</span>, <span style="color: #800000;">'</span>, <span style="color: #800000;">/</span>, etc.).</p>
+<p>Python overcome this issue by reserving the backslash / character as an escape character.</p>
+<p>Basically, the character after backslash will lose its functionality and become a printable character in a string.&nbsp;</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>text = <span style="color: #008000;">"Today was a "</span>cold<span style="color: #008000;">" day"</span></p>
+<p>text = <span style="color: #008000;">"Today was a</span> \<span style="color: #008000;">"cold</span>\<span style="color: #008000;">" day"</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Other escape characters:</span></h2>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Code</th>
+<th>Output</th>
+</tr>
+<tr>
+<td>\'</td>
+<td>Skip single quote '</td>
+</tr>
+<tr>
+<td>\r</td>
+<td>Carriage return, new line</td>
+</tr>
+<tr>
+<td>\n</td>
+<td>New line</td>
+</tr>
+<tr>
+<td>\b</td>
+<td>Back-space</td>
+</tr>
+<tr>
+<td>\\</td>
+<td>Skip backslash</td>
+</tr>
+<tr>
+<td>\t</td>
+<td>Insert tab</td>
+</tr>
+<tr>
+<td>\xhh</td>
+<td>Octal value (Base 8 number system)</td>
+</tr>
+<tr>
+<td>\ooo</td>
+<td>Hex value (Base 16 number system)</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

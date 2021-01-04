@@ -1,0 +1,46 @@
+<h1><span style="color: #000080;">Output the variables:</span></h1>
+<p>The Python <span style="color: #800000;">print()</span> statement is used to output variables.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>x = <span style="color: #008000;">"Python is awesome"</span>&nbsp;
+<p><span style="color: #800000;">print</span>(x)</p>
+<p><span style="color: #800000;">print</span>(type(x))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello"</span> + x)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">+ charecter:</span></h2>
+<p>We can add variables by <span style="color: #000080;">+</span> charecter. It also function the same as add function in math. We can add String, int and, float.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>x = <span style="color: #008000;">1</span>
+<p>y = <span style="color: #008000;">2</span></p>
+<p>z = x + y</p>
+<p><span style="color: #800000;">print</span>(z)</p>
+<p>greeting = <span style="color: #008000;">"Hello"</span></p>
+<p>name = <span style="color: #008000;">"World!"</span></p>
+<p>sentence = greeting + name&nbsp;&nbsp;</p>
+<p><span style="color: #800000;">print</span>(sentence)&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong>&nbsp;</p>
+<p>The variables must be the same type as eachother.&nbsp;</p>
+<p><strong>Not acceptable:&nbsp;</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>x = <span style="color: #008000;">5&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+<p>y = <span style="color: #008000;">"Sara"</span></p>
+<p>z = x + y</p>
+<p><span style="color: #800000;">print</span>(z)</p>
+</td>
+</tr>
+</tbody>
+</table>

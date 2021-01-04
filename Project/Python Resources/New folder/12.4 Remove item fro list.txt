@@ -1,0 +1,50 @@
+<h1><span style="color: #000080;">Remove items from list:</span></h1>
+<p>Python provides <span style="color: #800000;">remove()</span> method to delete a specific item from the list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br />thelist.<span style="color: #800000;">remove</span>(<span style="color: #008000;">"BMW"</span>)<br /><span style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Delete by index:</span></h2>
+<p><span style="color: #800000;">pop()</span> method enables programmer to delete an item with a specific index.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br />thelist.<span style="color: #800000;">pop</span>(<span style="color: #800000;">1</span>)<br /><span style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p><span style="color: #800000;">pop()</span> method will delete the last item in the list by default if we do not specify the index.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br />thelist.<span style="color: #800000;">pop</span>()<br /><span style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Keyword del:</span></h2>
+<p>Python provides <span style="color: #800000;">del</span> keyword to delete an item with specific index or delete the entire list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;"> "BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br /><span style="color: #800000;">del</span> thelist[<span style="color: #800000;">0</span>]<br /><span style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Clear the list:</span></h2>
+<p>Python <span style="color: #800000;">clear()</span> method deletes all the items inside the list and return an empty list.</p>
+<p><strong>For example:&nbsp;</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>,<span style="color: #008000;"> "Toyota"</span>]<br />thelist.<span style="color: #800000;">clear</span>()<br /><span style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>

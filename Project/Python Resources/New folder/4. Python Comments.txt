@@ -1,0 +1,47 @@
+<h1><span style="color: #000080;">Python Comments:</span></h1>
+<p>Considering that most of the time programs are more than hundreds of lines, it will be handy if there was a way to explain each line or block of code without interrupting the execution of the program.</p>
+<p>Python uses # (Pound sign) to indicate comment lines.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #808080;"># This is a comment line and Python will ignore it</span></td>
+</tr>
+</tbody>
+</table>
+<p>Comments can be added to code lines as well, Python will ignore the characters appear after Pound sign (#).</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello, World!"</span>) <span style="color: #808080;">#This is a comment</span></td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Multi-line comments:</span></h2>
+<p>Comments can be multiple lines.</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #808080;"># This is the first line comment</span>
+<p><span style="color: #808080;"># This is the second line comment</span></p>
+<p><span style="color: #808080;"># This is the third line comment</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Or by using Quotation Mark.</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #008000;">"""</span></p>
+<p><span style="color: #008000;">This is the first line comment</span></p>
+<p><span style="color: #008000;">This is the second line comment</span></p>
+<p><span style="color: #008000;">This is the third line comment</span></p>
+<p><span style="color: #008000;">"""</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Note that Python will ignore the text between quotation marks if there is no variable assign to it.&nbsp;</p>

@@ -1,0 +1,365 @@
+<h1><span style="color: #000080;">Operators in Python:</span></h1>
+<p>As the name suggests, operators perform operations on variables.</p>
+<p>Python divides operators in the following categories:</p>
+<ul>
+<li><strong>Arithmetic operators</strong></li>
+<li><strong>Assignment operators</strong></li>
+<li><strong>Comparison operators</strong></li>
+<li><strong>Logical operators</strong></li>
+<li><strong>Identity operators</strong></li>
+<li><strong>Membership operators</strong></li>
+<li><strong>Bitwise operators</strong></li>
+</ul>
+<h2><span style="color: #000080;">Arithmetic operators:</span></h2>
+<p>These operators are used for operations on numeric values.</p>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Operator</th>
+<th><strong>Description</strong></th>
+<th>Format</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">+</span></td>
+<td>Addition</td>
+<td>a <span style="color: #800000;">+</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">-</span></td>
+<td>Subtraction</td>
+<td>a <span style="color: #800000;">-</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">*</span></td>
+<td>Multiplication</td>
+<td>a <span style="color: #800000;">*</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">/</span></td>
+<td>Division</td>
+<td>a <span style="color: #800000;">/</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">%</span></td>
+<td>Modulus</td>
+<td>a <span style="color: #800000;">%</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">**</span></td>
+<td>Exponentiation</td>
+<td>a <span style="color: #800000;">**</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">//</span></td>
+<td>Floor division</td>
+<td>a <span style="color: #800000;">//</span> b</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
+<h2><span style="color: #000080;">Assignment operators:</span></h2>
+<p>The assignment operators make an arithmetic operation shorter.</p>
+  <html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Operator</th>
+<th><strong>Description</strong></th>
+<th>Format</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">=</span></td>
+<td>x = 5</td>
+<td>x = 5</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">+=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">+</span> 3</td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">+</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">-=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">-</span> 3</td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">-</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">*=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">*</span> 3</td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">*</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">/=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">/</span> 3</td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">/</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">%=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">%</span> 3</td>
+<td>x <span style="color: #800000;">%=</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">//=</span></td>
+<td>x <span style="color: #800000;">=</span> x<span style="color: #800000;"> //</span> 3</td>
+<td>x <span style="color: #800000;">//=</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">**=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">**</span> 3</td>
+<td>x <span style="color: #800000;">**=</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&amp;=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">&amp;</span> 3</td>
+<td>x <span style="color: #800000;">&amp;=</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">|=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">|</span> 3</td>
+<td>x<span style="color: #800000;"> |=</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">^=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">^</span> 3</td>
+<td>x <span style="color: #800000;">^=</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&gt;&gt;=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">&gt;&gt;</span> 3</td>
+<td>x<span style="color: #800000;"> &gt;&gt;=</span> 3</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&lt;&lt;=</span></td>
+<td>x <span style="color: #800000;">=</span> x <span style="color: #800000;">&lt;&lt;</span> 3</td>
+<td>x <span style="color: #800000;">&lt;&lt;=</span> 3</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
+<h2><span style="color: #000080;">Comparison operations:</span></h2>
+<p>These operators are used to compare two values.</p>
+  <html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Operator</th>
+<th><strong>Description</strong></th>
+<th>Format</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">==</span></td>
+<td>Equal</td>
+<td>a <span style="color: #800000;">==</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">!=</span></td>
+<td>Not equal</td>
+<td>a <span style="color: #800000;">!=</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&gt;</span></td>
+<td>Greater than</td>
+<td>a <span style="color: #800000;">&gt;</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&lt;</span></td>
+<td>Less than</td>
+<td>a <span style="color: #800000;">&lt;</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&gt;=</span></td>
+<td>Greater than or equal to</td>
+<td>a <span style="color: #800000;">&gt;=</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&lt;=</span></td>
+<td>Less than or equal to</td>
+<td>a <span style="color: #800000;">&lt;=</span> b</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
+<h2><span style="color: #000080;">Logic operators:</span></h2>
+<p>Logical operators enable programmer to combine conditional statements.</p>
+  <html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Operator</th>
+<th><strong>Description</strong></th>
+<th>Format</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">and&nbsp;</span></td>
+<td>Both statements must be <span style="color: #800000;">True</span>.</td>
+<td>a &lt; 12 <span style="color: #800000;">and&nbsp;</span> b &lt; 110</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">or</span></td>
+<td>One statements must be <span style="color: #800000;">True</span>.</td>
+<td>a &lt; 12 <span style="color: #800000;">or&nbsp;</span> a &gt; 4</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">not</span></td>
+<td>Reverse the output. <span style="color: #800000;">False</span> instead of <span style="color: #800000;">True</span> and vice versa.&nbsp;</td>
+<td><span style="color: #800000;">not</span>(a &lt; 8 <span style="color: #800000;">and</span> b &lt; 12)</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
+<h2><span style="color: #000080;">Identity operators:</span></h2>
+<p>These operators are used to compare objects.</p>
+<p><strong>Note:</strong></p>
+<p>Object compared with identity operators must be exactly the same with identical memory location.</p>
+  <html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Operator</th>
+<th><strong>Description</strong></th>
+<th>Format</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">is&nbsp;</span></td>
+<td><span style="color: #800000;">True</span> if both variables are the same object.</td>
+<td>a <span style="color: #800000;">is</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">is not</span></td>
+<td><span style="color: #800000;">True</span> if both variables are <span style="color: #800000;">not</span> the same object.</td>
+<td>a <span style="color: #800000;">is not</span> b</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
+<h2><span style="color: #000080;">Membership operators:</span></h2>
+<p>As we discussed before, these operators are used to verify if a sequence of value is present in an object.</p>
+  <html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Operator</th>
+<th><strong>Description</strong></th>
+<th>Format</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">in&nbsp;</span></td>
+<td>Returns <span style="color: #800000;">True</span> if a sequence with the specified value is present in the object.</td>
+<td>a <span style="color: #800000;">in</span> b</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">not in</span></td>
+<td>Returns <span style="color: #800000;">True</span> if a sequence with the specified value is not present in the object.</td>
+<td>a <span style="color: #800000;">not in</span> b</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
+<h2><span style="color: #000080;">Bitwise operators:</span></h2>
+<p>Bitwise operators are responsible to compare binary numbers.</p>
+  <html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+  </body>
+</html>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Operator</th>
+<th><strong>Description</strong></th>
+<th>Name</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">&amp;&nbsp;</span></td>
+<td>Sets each bit to 1 if both bits are 1.</td>
+<td>bitwise <span style="color: #800000;">AND</span></td>
+</tr>
+<tr>
+<td><span style="color: #800000;">|</span></td>
+<td>Sets each bit to 1 if one of two bits is 1.</td>
+<td>bitwise <span style="color: #800000;">OR</span></td>
+</tr>
+<tr>
+<td><span style="color: #800000;">^</span></td>
+<td>Sets each bit to 1 if only one of two bits is 1.</td>
+<td>bitwise <span style="color: #800000;">XOR</span></td>
+</tr>
+<tr>
+<td><span style="color: #800000;">~&nbsp;</span></td>
+<td>Inverts all the bits.</td>
+<td>bitwise <span style="color: #800000;">NOT</span></td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&lt;&lt;</span></td>
+<td>Shift left by pushing zeros in from the right and let the leftmost bits fall off.</td>
+<td>bitwise left shift</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">&gt;&gt;</span></td>
+<td>Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off.</td>
+<td>bitwise right shift</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>

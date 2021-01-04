@@ -1,0 +1,84 @@
+<h1><span style="color: #000080;">List comprehension:</span></h1>
+<p><strong>Recall:</strong></p>
+<p>We can create a new list bast on the existing list and set some condition to be meet in the new list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>, <span style="color: #008000;">"Honda"</span>, <span style="color: #008000;">"Ford"</span>]<br />newlist = []</p>
+<p><span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> cars:<br />&nbsp; &nbsp;<span style="color: #800000;">if</span> "a" <span style="color: #800000;">in</span> i:<br />&nbsp; &nbsp; &nbsp; newlist.<span style="color: #800000;">append</span>(i)</p>
+<p><span style="color: #800000;">print</span>(newlist)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">List comprehension:</span></h2>
+<p>List comprehension provide a shorter syntax for creating a new list from existing list with condition.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>, <span style="color: #008000;">"Honda"</span>, <span style="color: #008000;">"Ford"</span>]</p>
+<p>newlist = [i <span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> cars <span style="color: #800000;">if</span> "a" <span style="color: #800000;">in</span> i]</p>
+<p><span style="color: #800000;">print</span>(newlist)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Comprehension format:</span></h2>
+<p>This is the sample format for&nbsp;comprehension syntax.</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>newlist = [<em>expression</em>&nbsp;<span style="color: #800000;"><span class="pythonkeywordcolor">for</span>&nbsp;</span><em>item</em>&nbsp;<span style="color: #800000;"><span class="pythonkeywordcolor">in</span>&nbsp;</span><em>iterable</em>&nbsp;<span style="color: #800000;"><span class="pythonkeywordcolor">if</span>&nbsp;</span><em>condition</em>&nbsp;<span style="color: #800000;">==</span>&nbsp;<span class="pythonkeywordcolor">True</span>]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>newlist = [i <span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> cars <span style="color: #800000;">if</span> i <span style="color: #800000;">!=</span> <span style="color: #008000;">"Honda"</span>]</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Iterable:</span></h2>
+<p>we can create a list by using <span style="color: #800000;">range()</span> method.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>newlist = [a&nbsp;<span style="color: #800000;"><span class="pythonkeywordcolor">for</span>&nbsp;</span>a&nbsp;<span style="color: #800000;"><span class="pythonkeywordcolor">in</span>&nbsp;</span><span class="pythonkeywordcolor" style="color: #800000;">range</span>(12)]</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Expression:</span></h2>
+<p>We can modify the outcome of a&nbsp;comprehension by adding expression to it.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>, <span style="color: #008000;">"Honda"</span>, <span style="color: #008000;">"Ford"</span>]</p>
+<p>newlist = [i.<span style="color: #800000;">upper()</span> <span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> cars]</p>
+<p><span style="color: #800000;">print</span>(newlist)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Condition in expression:</span></h2>
+<p>Python allows us to add condition to the expressionas well:</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = ["Benz", "BMW", "Toyota", "Honda", "Ford"]</p>
+<p>newlist = [a <span style="color: #800000;">if</span> a <span style="color: #800000;">!=</span> "BMW" <span style="color: #800000;">else</span> "Jeep" <span style="color: #800000;">for</span> a <span style="color: #800000;">in</span> cars]</p>
+<p><span style="color: #800000;">print</span>(newlist)</p>
+</td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,46 @@
+<h1><span style="color: #000080;">Copy list:</span></h1>
+<p>We can simply use equal sign to copy a list.</p>
+<p>But the problem with this way is that the new list will be pointing to the old list and any modification in new list will affect the old list as well.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>old_list = [<span style="color: #008000;">"a"</span>, <span style="color: #008000;">"b"</span>, <span style="color: #008000;">"c"</span>]<br />new_list = old_list</p>
+<p><span style="color: #808080;"># add an element to new list</span><br />new_list.<span style="color: #800000;">append</span>(<span style="color: #008000;">"d"</span>)</p>
+<p><span style="color: #800000;">print</span>('New List:', new_list)<br /><span style="color: #800000;">print</span>('Old List:', old_list)</p>
+<p><span style="color: #808080;"># Returns:</span></p>
+<p><span style="color: #808080;">New List: ['a', 'b', 'c', 'd']</span><br /><span style="color: #808080;">Old List: ['a', 'b', 'c', 'd']</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Return new list:</span></h2>
+<p>There are a few ways to overcome this issue.&nbsp;</p>
+<p>These are the most frequent used methods.</p>
+<ul>
+<li><strong>copy() method:</strong></li>
+</ul>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br />newlist = thelist.<span style="color: #800000;">copy</span>()<br /><span style="color: #800000;">print</span>(newlist)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;['Benz', 'BMW', 'Toyota']</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>list() method:</strong></li>
+</ul>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br />newlist = <span style="color: #800000;">list</span>(thelist)<br /><span style="color: #800000;">print</span>(newlist)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;['Benz', 'BMW', 'Toyota']</span></p>
+</td>
+</tr>
+</tbody>
+</table>

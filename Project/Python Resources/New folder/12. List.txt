@@ -1,0 +1,182 @@
+<h1><span style="color: #000080;">List in Python:</span></h1>
+<p>List is an ordered collection of elements (values).</p>
+<p><strong>Note:</strong></p>
+<p>The name element is the same as item and they refer to each value in a list.</p>
+<p><strong>Recall:</strong></p>
+<p>String is a collection of ordered characters.&nbsp;</p>
+<p>List is the same as string, and it is a collection of ordered characters, but unlike string, the characters of a list are values, and they can be from any data type.</p>
+<p>We define a list by square brackets <span style="color: #800000;">[ ]</span> and the items are separated by comma&nbsp;( <span style="color: #800000;">,</span> ).</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"John"</span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList )</p>
+</td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>theList = [<span style="color: #008000;">5</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">110</span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList )</p>
+</td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>theList = [<span style="color: #008000;">False</span>, <span style="color: #008000;">True</span>, <span style="color: #008000;">False</span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList )</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;"><strong>Ordered:</strong></span></h2>
+<p>The items in the list are ordered, and we can access them by their index.</p>
+<p>List allows duplicated items because list is a collection of indexes.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor"><span style="color: #008000;">"John"</span>,<span style="color: #008000;">"Sam"</span>,<span style="color: #008000;">"John"</span></span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList <span style="color: #800000;">[</span>2<span style="color: #800000;">]</span>)&nbsp; &nbsp;# output is John</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>The index of first item is 0.</p>
+<h2><span style="color: #000080;">Modify items:</span></h2>
+<p>Python allows the programmer to add, remove and change items in the list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>]</p>
+<p>cars.<span style="color: #800000;">insert</span>(2,<span style="color: #008000;">"Ford"</span>)</p>
+<p><span style="color: #800000;">print</span>(cars)</p>
+</td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>]</p>
+<p>cars.<span style="color: #800000;">remove</span>(<span style="color: #008000;">"BMW"</span>)</p>
+<p><span style="color: #800000;">print</span>(cars)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;"><strong>Other methods:</strong></span></h2>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+<tr>
+<td><span style="color: #800000;">append()</span></td>
+<td>Adds element to the end of the list.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">clear()</span></td>
+<td>Removes all the elements from the list.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">copy()</span></td>
+<td>Returns a copy of the list.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">count()</span></td>
+<td>Returns the number of elements with the specified value.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">extend()</span></td>
+<td>Add the elements of a list, to the end of the other list.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">index()</span></td>
+<td>Returns the index of the first element with the specified value.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">insert()</span></td>
+<td>Adds an element at the specified position.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">pop()</span></td>
+<td>Removes the element at the specified position.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">remove()</span></td>
+<td>Removes the item with the specified value.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">reverse()</span></td>
+<td>Reverses the order of the list.</td>
+</tr>
+<tr>
+<td><span style="color: #800000;">sort()</span></td>
+<td>Sorts the list.</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
+<p><strong>Note:</strong></p>
+<p>Some of these functions may change the order of items in the list.</p>
+<h2><span style="color: #000080;">Length of list:</span></h2>
+<p><span style="color: #800000;">len()</span> function count the items in a list and return how many items are in the list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>]</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">len</span>(cars))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">List of collection:</span></h2>
+<p>Items in a list can be from any data type. We can define list with different data types according to our usage.&nbsp;</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">3.14</span>, <span style="color: #008000;">True</span>]</p>
+<p><span style="color: #800000;">print</span>(cars)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">List constructor:</span></h2>
+<p>Python provide <span style="color: #800000;">list()</span> constructor to create list.</p>
+<p><strong>Note:</strong></p>
+<p>the square brackets&nbsp;<span style="color: #800000;">[ ]</span> will turn to parentheses <span style="color: #800000;">()</span>.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = <span style="color: #800000;">list</span>((<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>))</p>
+<p><span style="color: #800000;">print</span>(cars)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Access type:</span></h2>
+<p>We can access the type of a list by passing it to <span style="color: #800000;">type()</span> function.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>cars = [<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>]</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(cars))</p>
+</td>
+</tr>
+</tbody>
+</table>

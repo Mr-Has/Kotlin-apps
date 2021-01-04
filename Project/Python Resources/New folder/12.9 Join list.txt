@@ -1,0 +1,52 @@
+<h1><span style="color: #000080;">Concatenate list:</span></h1>
+<p>There are a few ways that programmers use to add two lists together in Python.</p>
+<p>These are some of the most straight forward and commonly used methods.</p>
+<ul>
+<ul>
+<li><strong><span style="color: #800000;">+</span> Operator</strong></li>
+</ul>
+</ul>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>list_one = [<span style="color: #008000;">1</span>, <span style="color: #008000;">2</span>, <span style="color: #008000;">3</span>]<br />list_two = [<span style="color: #008000;">4</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">6</span>]</p>
+<p>list_three = list_one <span style="color: #800000;">+</span> list_two<br /><span style="color: #800000;">print</span>(list_three)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;[1, 2, 3, 4, 5, 6]</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<ul>
+<li><strong>append() Method</strong></li>
+</ul>
+</ul>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>list_one = [<span style="color: #008000;">1</span>, <span style="color: #008000;">2</span>, <span style="color: #008000;">3</span>]<br />list_two = [<span style="color: #008000;">4</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">6</span>]</p>
+<p><span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> list_two:<br /> list_one.<span style="color: #800000;">append</span>(i)</p>
+<p><span style="color: #800000;">print</span>(list_one)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;[1, 2, 3, 4, 5, 6]</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<ul>
+<li><strong>extend() Method</strong></li>
+</ul>
+</ul>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>list_one = [<span style="color: #008000;">1</span>, <span style="color: #008000;">2</span>, <span style="color: #008000;">3</span>]<br />list_two = [<span style="color: #008000;">4</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">6</span>]</p>
+<p>list_one.<span style="color: #800000;">extend</span>(list_two)<br /><span style="color: #800000;">print</span>(list_one)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;[1, 2, 3, 4, 5, 6]</span></p>
+</td>
+</tr>
+</tbody>
+</table>

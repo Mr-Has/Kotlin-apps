@@ -1,0 +1,59 @@
+<h1><span style="color: #000080;">Add items to list:</span></h1>
+<p>Python provides <span style="color: #800000;">append()</span> method to add an item to list.</p>
+<p><strong>Note:</strong></p>
+<p><span style="color: #800000;">append()</span> method will add the new item to the end of the list.</p>
+<p><strong>Fore example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]</p>
+<p>thelist.<span style="color: #800000;">append</span>(<span style="color: #008000;">"ford"</span>)</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Extend list:</span></h2>
+<p>Python allows the programmer to append items from another list to the existing list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>list1 = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]</p>
+<p>list2 = [<span style="color: #008000;">"Ford"</span>, <span style="color: #008000;">"Honda"</span>, <span style="color: #008000;">"Hyundai"</span>]</p>
+<p>list1.<span style="color: #800000;">extend</span>(list2)</p>
+<p><span style="color: #800000;">print</span>(list1)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p><span style="color: #800000;">extend()</span> method will work the same for any other type of inerrable object.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]</p>
+<p>thetuple = (<span style="color: #008000;">"Ford"</span>, <span style="color: #008000;">"Honda"</span>, <span style="color: #008000;">"Hyundai"</span>)</p>
+<p>thelist .<span style="color: #800000;">extend</span>(thetuple )</p>
+<p><span style="color: #800000;">print</span>(thelist )</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Insert item:</span></h2>
+<p>As we discussed earlier, we can use <span style="color: #800000;">insert()</span> method to insert a new item in any specific index.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br />thelist .<span style="color: #800000;">insert</span>(<span style="color: #800000;">2</span>, <span style="color: #008000;">"Ford"</span> )</p>
+<p><span style="color: #800000;">print</span>(thelist )</p>
+</td>
+</tr>
+</tbody>
+</table>

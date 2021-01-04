@@ -1,0 +1,42 @@
+<h1><span style="color: #000080;">Loop trough a list:</span></h1>
+<p>We can iterate through a list by <span style="color: #800000;">for</span> loop and <span style="color: #800000;">while</span> loop.</p>
+<h2><span style="color: #000080;">Loop through a list:</span></h2>
+<p>Python <span style="color: #800000;">for</span> loop is used to iterate through a sequence of items in the list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;"> "BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br /> <span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> thelist:<br /> &nbsp; &nbsp;<span style="color: #800000;">print</span>(i)</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Loop by index:</span></h2>
+<p>We can use <span style="color: #800000;">range()</span> method and <span style="color: #800000;">len()</span> method to loop through items in a list by referring to their indexes.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br /> <span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> <span style="color: #800000;">range</span>(<span style="color: #800000;">len</span>(thelist)):<br />&nbsp; &nbsp;<span style="color: #800000;">print</span>(thelist[i])</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">While loop:</span></h2>
+<p>This method will execute the code as long as the condition is <span style="color: #800000;">True</span>.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br /> i = 0<br /> <span style="color: #800000;">while</span> i &lt; <span style="color: #800000;">len</span>(thelist):<br /> &nbsp; &nbsp;<span style="color: #800000;">print</span>(thelist[i])<br /> &nbsp; &nbsp;i = i + 1</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">List comprehensive:</span></h2>
+<p>Python provides list comprehensive as a short for looping through a list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>]<br /> [<span style="color: #800000;">print</span>(i) <span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> thelist]</td>
+</tr>
+</tbody>
+</table>

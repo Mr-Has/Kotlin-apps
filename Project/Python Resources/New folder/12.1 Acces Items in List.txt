@@ -1,0 +1,72 @@
+<h1><span style="color: #000080;">Access items in list:</span></h1>
+<p>We can access each item of a list by passing its index.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor" style="color: #008000;">"John"</span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList [<span class="pythonnumbercolor" style="color: #800000;">1</span>])</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Range of indexes:</span></h2>
+<p>Python allows to access a range of items in a list by passing the range indexes.</p>
+<p><strong>for example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor"><span style="color: #008000;">"John"</span>,<span style="color: #008000;">"Smith"</span>,<span style="color: #008000;">"Adam"</span></span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList [<span class="pythonnumbercolor"><span style="color: #800000;">1</span>:<span style="color: #800000;">3</span></span>])</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>If we do not pass the starting index, Python will start from index 0.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor"><span style="color: #008000;">"John"</span>,<span style="color: #008000;">"Smith"</span>,<span style="color: #008000;">"Adam"</span></span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList [<span class="pythonnumbercolor">:<span style="color: #800000;">3</span></span>])</td>
+</tr>
+</tbody>
+</table>
+<p>Also, Python will continue to the end if we do not pass the end index.</p>
+<p><strong>For example:</strong>&nbsp;</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor"><span style="color: #008000;">"John"</span>,<span style="color: #008000;">"Smith"</span>,<span style="color: #008000;">"Adam"</span></span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList [<span style="color: #800000;">2</span><span class="pythonnumbercolor">:</span>])</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Presence check:</span></h2>
+<p>We can use the <span style="color: #800000;">in</span> keyword to verify if an item exists in the list:</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor" style="color: #008000;">"John"</span>]</p>
+<p><span style="color: #800000;">if</span> <span style="color: #008000;">"sara"</span> <span style="color: #800000;">in</span> theList :<br /><span class="pythonkeywordcolor">&nbsp; &nbsp;<span style="color: #800000;">print</span></span>(<span style="color: #008000;">"Yes Sara is in the list."</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">negative index:</span></h2>
+<p>Simply pass negative index to start from the end of list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor" style="color: #008000;">"John"</span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList [<span style="color: #800000;">-1</span>])</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Negative range:</span></h2>
+<p>Use negative indexes to access a range of items from the end of list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>theList = [<span class="pythonstringcolor" style="color: #008000;">"Sam"</span>,<span class="pythonstringcolor" style="color: #008000;">"Sara"</span>,<span class="pythonstringcolor"><span style="color: #008000;">"John"</span>,<span style="color: #008000;">"Smith"</span>,<span style="color: #008000;">"Adam"</span></span>]<br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(theList [<span style="color: #800000;">-4</span>:<span style="color: #800000;">-1</span>])</td>
+</tr>
+</tbody>
+</table>

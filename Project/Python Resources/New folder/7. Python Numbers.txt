@@ -1,0 +1,130 @@
+<h1><span style="color: #000080;">Numbers:</span></h1>
+<p>There are three types of numeric types defined in Python.</p>
+<ul>
+<li><strong>Integer&nbsp;</strong>
+<ul>
+<li><span style="color: #800000;">int</span></li>
+</ul>
+</li>
+<li><strong>Float</strong>
+<ul>
+<li><span style="color: #800000;">float</span></li>
+</ul>
+</li>
+<li><strong>Complex</strong>
+<ul>
+<li><span style="color: #800000;">complex</span></li>
+</ul>
+</li>
+</ul>
+<h2><span style="color: #000080;">Integer:</span></h2>
+<p>Int is a whole positive or negative number with unlimited length, but without any decimal.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>a = <span style="color: #008000;">5</span></p>
+<p>b = <span style="color: #008000;">-110</span></p>
+<p>c = <span style="color: #008000;">1279599130080924464523</span></p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(a))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(b))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(c))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Float:</span></h2>
+<p>Float is a positive or negative number with decimals.</p>
+<p><strong>Note:</strong></p>
+<p>The character&nbsp;<span style="color: #800000;">e</span> represents the power of 10 in Python.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>a = <span style="color: #008000;">3.14</span></p>
+<p>b = <span style="color: #008000;">-1.10</span></p>
+<p>c =<span style="color: #008000;"> -12.79599130080924464523</span></p>
+<p>d = <span style="color: #008000;">110e7</span></p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(a))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(b))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(c))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(d))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Complex:</span></h2>
+<p>Complex numbers in Python are created from real numbers and are written with a "j" as an additional part.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>a = <span style="color: #008000;">12j</span></p>
+<p>b = <span style="color: #008000;">-4j</span></p>
+<p>c = <span style="color: #008000;">110+12j</span></p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(a))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(b))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(c))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Type conversion:</span></h2>
+<p>We remember that Python is flexible therefore, we can convert the type of defined variables.</p>
+<p>The only exception here is that we cannot convert complex numbers to any other type.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>a = <span style="color: #008000;">3</span></p>
+<p>b = <span style="color: #008000;">12.5</span></p>
+<p>c = <span style="color: #008000;">9j</span></p>
+<p><span style="color: #808080;"># Converting the types and storing</span></p>
+<p><span style="color: #808080;"># Them in a new variable.</span></p>
+<p>x = <span style="color: #800000;">int</span>(b)</p>
+<p>y = <span style="color: #800000;">float</span>(a)</p>
+<p>z = <span style="color: #800000;">complex</span>(a)</p>
+<p><span style="color: #808080;"># Comparing the results.</span></p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(a))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(b))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(c))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(x))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(y))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(z))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Random function:</span></h2>
+<p>Python comes with a built-in module that can produce random numbers.&nbsp;</p>
+<p>Before using random module, you should import the module. Best way of doing it is that you import it at the very first line of your program.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #800000;">import</span> random</p>
+<p>x = random.<span style="color: #800000;">randrange</span>(<span style="color: #008000;">1</span>, <span style="color: #008000;">12</span>)</p>
+<p><span style="color: #800000;">print</span>(x)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Range function:</span></h2>
+<p>Range function returns a sequence of numbers. It starts from 0 by default and increment by 1 and, it will stop before a specified number.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #800000;">range</span>(<span style="color: #008000;">5</span>)</p>
+<p>for <span style="color: #008000;">i</span> in <span style="color: #008000;">x</span>:</p>
+<p>&nbsp; &nbsp;<span style="color: #800000;">print</span>(<span style="color: #008000;">i</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>

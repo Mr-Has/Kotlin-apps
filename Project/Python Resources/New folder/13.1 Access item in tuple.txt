@@ -1,0 +1,87 @@
+<h1><span style="color: #000080;">Access items in tuple:</span></h1>
+<p>The same as list, we can access the items in a tuple by referring to their indexes.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>)<br /><span style="color: #800000;">print</span>(thetuple[<span style="color: #800000;">2</span>])</p>
+<p><span style="color: #808080;"># Returns:&nbsp;Toyota</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Range indexing:</span></h2>
+<p>Python allows us to access a range of items in a tuple:</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>,<span style="color: #008000;">"Honda"</span>,</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #008000;">&nbsp;"Ford"</span>,<span style="color: #008000;">"GMC"</span>,<span style="color: #008000;">"Fiat"</span>)<br /><span style="color: #800000;">print</span>(thetuple[<span style="color: #800000;">3</span>:<span style="color: #800000;">6</span>])</p>
+<p><span style="color: #808080;"># Returns:&nbsp;('Honda', 'Ford', 'GMC')</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>Python will start from index 0 of the tuple if we leave the starting point empty.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>,<span style="color: #008000;">"Honda"</span>,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: #008000;">"Ford"</span>,<span style="color: #008000;">"GMC"<span style="color: #000000;">,</span></span><span style="color: #008000;">"Fiat"</span>)<br /><span style="color: #800000;">print</span>(thetuple[:<span style="color: #800000;">3</span>])</p>
+<p><span style="color: #808080;"># Returns: ('Benz', 'BMW', 'Toyota')</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>Python will continue to the end of tuple if we leave the ending point empty.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>,<span style="color: #008000;">"Honda"</span>,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: #008000;">"Ford"</span>,<span style="color: #008000;">"GMC"</span>,<span style="color: #008000;">"Fiat"</span>)<br /><span style="color: #800000;">print</span>(thetuple[<span style="color: #800000;">3</span>:])</p>
+<p><span style="color: #808080;"># Returns: ('Honda', 'Ford', 'GMC', 'Fiat')</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Negative indexing:</span></h2>
+<p>Passing negative index will enable us to access items from the end of the list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>,<span style="color: #008000;">"Honda"</span>,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: #008000;">"Ford"</span>,<span style="color: #008000;">"GMC"</span>,<span style="color: #008000;">"Fiat"</span>)<br /><span style="color: #800000;">print</span>(thetuple[<span style="color: #800000;">-5</span>])</p>
+<p><span style="color: #808080;"># Returns: Toyota</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Negative range access:</span></h2>
+<p>We can access a range of items from the end of the list by passing range of negative indexes.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>,<span style="color: #008000;">"Honda"</span>,<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="color: #008000;">"Ford"</span>,<span style="color: #008000;">"GMC"</span>,<span style="color: #008000;">"Fiat"</span>)<br /><span style="color: #800000;">print</span>(thetuple[<span style="color: #800000;">-5</span>:<span style="color: #800000;">-2</span>])</p>
+<p><span style="color: #808080;"># Returns:&nbsp;('Toyota', 'Honda', 'Ford')</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

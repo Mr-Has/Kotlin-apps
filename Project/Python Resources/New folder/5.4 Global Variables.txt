@@ -1,0 +1,72 @@
+<h2><span style="color: #000080;">Global variables:</span></h2>
+<p>Variables that are created outside of a function and can be used everywhere in the program.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #008000;">"World!"</span></p>
+<p><span style="color: #800000;">def</span> myfunction():</p>
+<p>&nbsp; &nbsp; <span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello"</span> + x)</p>
+<p>myfunction()</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Local variables:</span></h2>
+<p>The variables that are defined within a function and can be used only within the function.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #008000;">"World!"</span></p>
+<p><span style="color: #800000;">def</span> myfunction():</p>
+<p>&nbsp; &nbsp; x = <span style="color: #008000;">"Sam"</span></p>
+<p>&nbsp; &nbsp; <span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello"</span> + x)</p>
+<p>myfunction()</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello"</span> + x)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Global keyword:</span></h2>
+<p>We can use the <span style="color: #800000;">global</span> keyword to create a local variable which is accessible from outside of a function.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p><span style="color: #800000;">def</span> myfunction():</p>
+<p>&nbsp; &nbsp; global x = <span style="color: #008000;">"Sam"</span></p>
+<p>myfunction()</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello"</span> + x)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Changing Value:</span></h2>
+<p>To change the value of a global variable from inside of a function, we must use the <span style="color: #800000;">global</span> keyword.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #008000;">"World!"</span></p>
+<p><span style="color: #800000;">def</span> myfunction():</p>
+<p>&nbsp; &nbsp; global x</p>
+<p>&nbsp; &nbsp; x = <span style="color: #008000;">"Sam"</span></p>
+<p>myfunction()</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello"</span> + x)</p>
+</td>
+</tr>
+</tbody>
+</table>

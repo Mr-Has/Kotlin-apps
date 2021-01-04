@@ -1,0 +1,199 @@
+<h1><span style="color: #000080;">String Methods:</span></h1>
+<p>Python provides many methods that can be used to edit and modify strings value.</p>
+<p><strong>Note:</strong></p>
+<p>The methods are arranged in alphabetic order:</p>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<th style="width: 190px;">String Method:</th>
+<th style="width: 683px;">Description:</th>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.capitalize()</span></td>
+<td style="width: 683px;">Converts first character of a string to uppercase letter.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.casefold()</span></td>
+<td style="width: 683px;">Removes all case distinctions present in a string.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.center()</span></td>
+<td style="width: 683px;">Returns a string padded with specified character.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.count()</span></td>
+<td style="width: 683px;">Returns the number of times a specified value occurs in a string.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.encode()</span></td>
+<td style="width: 683px;">Convert&nbsp;unicode strings into any encoding which is supported by Python.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.endswith()</span></td>
+<td style="width: 683px;">Returns true if string end with specified suffix.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.expandtabs()</span></td>
+<td style="width: 683px;">Sets the tab size of a string.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.find()</span></td>
+<td style="width: 683px;">Searches for a specified value and returns its position.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.format()</span></td>
+<td style="width: 683px;">Formats the specified values in the string.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.format_map()</span></td>
+<td style="width: 683px;">Formats the specified values in the string and create new dictionary.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.index()</span></td>
+<td style="width: 683px;">Searches for a specified value and returns its position.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isalnum()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are alphanumeric.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isalpha()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are in the alphabet.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isdecimal()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are decimals.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isdigit()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are digits.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.identifier()</span></td>
+<td style="width: 683px;">Returns True only if the string is an identifier.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.islower()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are lower case.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isnumeric()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are numeric.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isprintable()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are printable.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isspace()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are whitespaces.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.istitle()</span></td>
+<td style="width: 683px;">Returns True only if the string follows the rules of a title.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.isupper()</span></td>
+<td style="width: 683px;">Returns True only if all characters in the string are upper case.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.join()</span></td>
+<td style="width: 683px;">Joins the elements of an iterable to the end of the string.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.ljust()</span></td>
+<td style="width: 683px;">Justified string to the left.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.lower()</span></td>
+<td style="width: 683px;">Converts all characters in a string into lower case.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.lstrip()</span></td>
+<td style="width: 683px;">Trim the string to the left.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.maketrans()</span></td>
+<td style="width: 683px;">Returns a translation table which can be used for translation.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.partition()</span></td>
+<td style="width: 683px;">String is parted into three parts and return tuple.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.replace()</span></td>
+<td style="width: 683px;">Returns a string where the specified value is replaced with a specified value.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.rfind()</span></td>
+<td style="width: 683px;">Searches a string for a specified value and returns its position if found.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.rindex()</span></td>
+<td style="width: 683px;">Searches a string for a specified value and returns its position if found.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.rjust()</span></td>
+<td style="width: 683px;">Justified string to the right.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.rpartition()</span></td>
+<td style="width: 683px;">String is parted into three parts and return tuple.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.rsplit()</span></td>
+<td style="width: 683px;">Splits a string at the specified separator, and returns a list</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.rstrip()</span></td>
+<td style="width: 683px;">Returns a string trimmed to right.&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.split()</span></td>
+<td style="width: 683px;">Splits a string at the specified separator and returns a list.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.splitlines()</span></td>
+<td style="width: 683px;">Splits a string at line breaks (\n) and returns a list.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.startswith()</span></td>
+<td style="width: 683px;">Returns True only if the string starts with the specified value.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.strip()</span></td>
+<td style="width: 683px;">Remove unnecessary spacing and trim the string.&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.swapcase()</span></td>
+<td style="width: 683px;">Swaps cases, upper case becomes lower case and vice versa.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.title()</span></td>
+<td style="width: 683px;">Converts the first letter of each word to upper case.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.translate()</span></td>
+<td style="width: 683px;">Returns a translation.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.upper()</span></td>
+<td style="width: 683px;">Converts all characters of a string to upper case.</td>
+</tr>
+<tr>
+<td style="width: 190px;"><span style="color: #800000;">string.zfill()</span></td>
+<td style="width: 683px;">Fills the begining of a string with a specified number of 0 values.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

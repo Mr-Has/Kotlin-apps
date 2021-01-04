@@ -1,0 +1,143 @@
+<h1><span style="color: #000080;">Data types:</span></h1>
+<p>Data type is an important topic in programming.&nbsp;</p>
+<p>We described the variables as containers which stores data. The stored data can be from different types and, each type has some characteristics that make the programmer use them for different purposes.</p>
+<h2><span style="color: #000080;">Default data types:</span></h2>
+<p>Python provides some built-in data types by default:</p>
+<ul>
+<li><strong>Text Type:&nbsp;</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<ul>
+<li><span style="color: #800000;">str</span></li>
+</ul>
+</li>
+<li><strong>Numeric Types:&nbsp;</strong> &nbsp; &nbsp;&nbsp;
+<ul>
+<li><span style="color: #800000;"><code class="w3-codespan">int</code></span>,&nbsp;<span style="color: #800000;"><code class="w3-codespan">float</code></span>,&nbsp;<span style="color: #800000;"><code class="w3-codespan">complex</code></span></li>
+</ul>
+</li>
+<li><strong>Set Types:</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+<ul>
+<li><span style="color: #800000;"><code class="w3-codespan">set</code></span>,&nbsp;<span style="color: #800000;"><code class="w3-codespan">frozenset</code></span></li>
+</ul>
+</li>
+<li><strong>Boolean Type:</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<ul>
+<li><span style="color: #800000;">bool</span></li>
+</ul>
+</li>
+<li><strong>Binary Types:</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<ul>
+<li><span style="color: #800000;"><code class="w3-codespan">bytes</code></span>,&nbsp;<span style="color: #800000;"><code class="w3-codespan">bytearray</code></span>,&nbsp;<span style="color: #800000;"><code class="w3-codespan">memoryview</code></span></li>
+</ul>
+</li>
+<li><strong>Sequence Types:</strong>&nbsp;
+<ul>
+<li><span style="color: #800000;"><code class="w3-codespan">list</code></span>,&nbsp;<span style="color: #800000;"><code class="w3-codespan">tuple</code></span>,&nbsp;<span style="color: #800000;"><code class="w3-codespan">range</code></span></li>
+</ul>
+</li>
+<li><strong>Mapping Type:</strong>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+<ul>
+<li><span style="color: #800000;">dict</span></li>
+</ul>
+</li>
+</ul>
+<h2><span style="color: #000080;">Access data types:</span></h2>
+<p>We can access the type of variable by type() function.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #008000;">3</span></p>
+<p>y = <span style="color: #008000;">"Sam"</span></p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(x))</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(y))&nbsp;&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Type setting:</span></h2>
+<p>Python is easy and smart, therefore it can detect the datatype once we assign value to the variable:</p>
+<p><strong>For Example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td style="text-align: center;"><strong>Variable and Value</strong></td>
+<td style="text-align: center;"><strong>Data type</strong></td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>x = <span style="color: #008000;">5</span>
+<p>x = <span style="color: #008000;">"Sara"</span></p>
+<p>x = <span style="color: #008000;">3.14</span></p>
+<p>x = <span style="color: #008000;">2j</span></p>
+<p>x = <span style="color: #008000;">True</span></p>
+<p>x = <span style="color: #008000;"><span style="color: #000000;">x</span>"Python"</span></p>
+<p>x = bytearray(<span style="color: #008000;">5</span>)</p>
+<p>x = memoryview(bytes(<span style="color: #008000;">5</span>))</p>
+<p>x = [<span style="color: #008000;">"Sam"</span>, <span style="color: #008000;">"Sara"</span>, <span style="color: #008000;">"John"</span>]</p>
+<p>x = (<span style="color: #008000;">"Sam"</span>, <span style="color: #008000;">"Sara"</span>, <span style="color: #008000;">"John"</span>)</p>
+<p>x = range(<span style="color: #008000;">12</span>)</p>
+<p>x = {<span style="color: #008000;">"X"</span> : <span style="color: #008000;">"Sara"</span>, <span style="color: #008000;">"Y"</span> : <span style="color: #008000;">18</span>}</p>
+<p>x = {<span style="color: #008000;">"Sam"</span>, <span style="color: #008000;">"Sara"</span>, <span style="color: #008000;">"John"</span>}</p>
+<p>x = frozenset({<span style="color: #008000;">"A"</span>, <span style="color: #008000;">"B"</span>, <span style="color: #008000;">"C"</span>})</p>
+</td>
+<td style="text-align: left;"><span style="color: #800000;">int</span>
+<p><span style="color: #800000;">String</span></p>
+<p><span style="color: #800000;">Float</span></p>
+<p><span style="color: #800000;">Complex</span></p>
+<p><span style="color: #800000;">Bool</span></p>
+<p><span style="color: #800000;">Bytes</span></p>
+<p><span style="color: #800000;">Bytearray</span></p>
+<p><span style="color: #800000;">Memoryview</span></p>
+<p><span style="color: #800000;">List</span></p>
+<p><span style="color: #800000;">Tuple</span></p>
+<p><span style="color: #800000;">Range</span></p>
+<p><span style="color: #800000;">Dict</span></p>
+<p><span style="color: #800000;">Set</span></p>
+<p><span style="color: #800000;">Frozenset</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Constructor functions:</span></h2>
+<p>We can specify the type by using these constructor functions.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td style="text-align: center;"><strong>Variable and Value</strong></td>
+<td style="text-align: center;"><strong>Data type</strong></td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>x = int(<span style="color: #008000;">5</span>)
+<p>x = str(<span style="color: #008000;">"Sara"</span>)</p>
+<p>x = float(<span style="color: #008000;">3.14</span>)</p>
+<p>x = complex(<span style="color: #008000;">2j</span>)</p>
+<p>x = bool(<span style="color: #008000;">5</span>)</p>
+<p>x = bytes(<span style="color: #008000;">5</span>)</p>
+<p>x = bytearray(<span style="color: #008000;">5</span>)</p>
+<p>x = memoryview(bytes(<span style="color: #008000;">5</span>))</p>
+<p>x = list((<span style="color: #008000;">"Sam"</span>,<span style="color: #008000;"> "Sara"</span>, <span style="color: #008000;">"John"</span>))</p>
+<p>x = tuple((<span style="color: #008000;">"X"</span>, <span style="color: #008000;">"Y"</span>, <span style="color: #008000;">"Z"</span>))</p>
+<p>x = range(<span style="color: #008000;">12</span>)</p>
+<p>x = dict((<span style="color: #008000;">"x"</span> : <span style="color: #008000;">"Sara"</span>,<span style="color: #008000;"> "y"</span> : <span style="color: #008000;">5</span>))</p>
+<p>x = set((<span style="color: #008000;">110</span>, <span style="color: #008000;">14</span>, <span style="color: #008000;">5</span>))</p>
+<p>x = frozenset((<span style="color: #008000;">2</span>, <span style="color: #008000;">24</span>, <span style="color: #008000;">12</span>))</p>
+</td>
+<td style="text-align: left;"><span style="color: #800000;">int</span>
+<p><span style="color: #800000;">String</span></p>
+<p><span style="color: #800000;">Float</span></p>
+<p><span style="color: #800000;">Complex</span></p>
+<p><span style="color: #800000;">Bool</span></p>
+<p><span style="color: #800000;">Bytes</span></p>
+<p><span style="color: #800000;">Bytearray</span></p>
+<p><span style="color: #800000;">Memoryview</span></p>
+<p><span style="color: #800000;">List</span></p>
+<p><span style="color: #800000;">Tuple</span></p>
+<p><span style="color: #800000;">Range</span></p>
+<p><span style="color: #800000;">Dict</span></p>
+<p><span style="color: #800000;">Set</span></p>
+<p><span style="color: #800000;">Frozenset</span></p>
+</td>
+</tr>
+</tbody>
+</table>

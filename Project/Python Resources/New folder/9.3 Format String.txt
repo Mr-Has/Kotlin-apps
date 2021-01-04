@@ -1,0 +1,58 @@
+<h1><span style="color: #000080;">Format string:</span></h1>
+<p><strong>Recall:</strong></p>
+<p>It is not possible to add string to a numeric value like int or float.</p>
+<p>The <span style="color: #800000;">format()</span> methods overcome this issue and allow the programmer to combine string and numbers together.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>time = <span style="color: #008000;">2</span></p>
+<p>text = <span style="color: #008000;">"I will learn Python with in {} months."</span></p>
+<p><span style="color: #800000;">print</span>(text.<span style="color: #800000;">format</span>(time))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p><span style="color: #800000;">format()</span> method takes positional arguments, and place them in <span style="color: #008000;">{ }</span> according to their order.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p>months = <span style="color: #008000;">2</span></p>
+<p>weeks = <span style="color: #008000;">8</span></p>
+<p>text = <span style="color: #008000;">"I will learn Python with in {} months or {} weeks."</span></p>
+<p><span style="color: #800000;">print</span>(text.<span style="color: #800000;">format</span>(months, weeks ))</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>Sometimes a grogram may grow big and it requires to pass a few positional arguments.</p>
+<p>A trick to make sure about the passed arguments is by passing them with their indexes.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>days = <span style="color: #008000;">60</span></p>
+<p>months = <span style="color: #008000;">2</span></p>
+<p>weeks = <span style="color: #008000;">8</span></p>
+<p>text = <span style="color: #008000;">"I will learn Python within {1} months </span></p>
+<p><span style="color: #008000;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;or {2} weeks, exactly {0} days."</span></p>
+<p><span style="color: #800000;">print</span>(text.<span style="color: #800000;">format</span>(days, months, weeks))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>

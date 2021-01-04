@@ -1,0 +1,115 @@
+<h1><span style="color: #000080;">Tuple:</span></h1>
+<p>Tuple is another built-in collection data type beside list, set and dictionary.</p>
+<p>We have discussed the <span style="color: #800000;">List </span>collection in the previous chapter, and we are going to explore <span style="color: #800000;">Tuple </span>in this chapter.</p>
+<p>Tuple are ordered collection which defined by parentheses <span style="color: #800000;">( )</span> and the items are separated by comma (<span style="color: #800000;">,</span>).</p>
+<p>Tuple allows duplicated items.</p>
+<p>The order and the items in tuple are not changeable. We are not able to add, modify or remove elements from tuple once it is created.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>)<br /><span style="color: #800000;">print</span>(thetuple)</p>
+<p><span style="color: #808080;"># Return:&nbsp;('Benz', 'BMW', 'Toyota')</span></p>
+</td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>)<br /><span style="color: #800000;">print</span>(thetuple)</p>
+<p><span style="color: #808080;"># Return: ('Benz', 'Benz', 'BMW', 'BMW', 'Toyota')</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Length of tuple:</span></h2>
+<p>We can use the <span style="color: #800000;">len()</span> method to count how many items are in a tuple:</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>)<br /><span style="color: #800000;">print</span>(<span style="color: #800000;">len</span>(thetuple))</p>
+<p><span style="color: #808080;"># Return: 3</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Data types:</span></h2>
+<p>The same as list, tuple items can be from any data types.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>tuple1 = (<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>)<br />tuple2 = (<span style="color: #008000;">5</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">110</span>, <span style="color: #008000;">14</span>, <span style="color: #008000;">34</span>)<br />tuple3 = (<span style="color: #008000;">False</span>, <span style="color: #008000;">True</span>, <span style="color: #008000;">False</span>)</p>
+<p><span style="color: #800000;">print</span>(tuple1)<br /><span style="color: #800000;">print</span>(tuple2)<br /><span style="color: #800000;">print</span>(tuple3)</p>
+<p><span style="color: #808080;"># Return:</span></p>
+<p><span style="color: #808080;">('Benz', 'BMW', 'Toyota')</span><br /><span style="color: #808080;">(5, 12, 110, 14, 34)</span><br /><span style="color: #808080;">(False, True, False)</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Mixing data types:</span></h2>
+<p>We can create a tuple with mixed data type.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">110</span>, <span style="color: #008000;">False</span>, <span style="color: #008000;">34.12</span>, <span style="color: #008000;">"Benz"</span>)</p>
+<p><span style="color: #800000;">print</span>(thetuple)</p>
+<p><span style="color: #808080;"># Return:&nbsp;(110, False, 34.12, 'Benz')</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">One item:</span></h2>
+<p>We can create a tuple with only one item.</p>
+<p><strong>Note:</strong></p>
+<p>We must separate the single item by comma (<span style="color: #800000;">,</span>) otherwise it will be considered as a string by Python.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = (<span style="color: #008000;">"Benz"</span>,)</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(thetuple))</p>
+<p><span style="color: #808080;"># Return:&nbsp;&lt;class 'tuple'&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Tuple constructor:</span></h2>
+<p>Python provides<span style="color: #800000;"> tuple()</span> constructor to create a tuple.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = tuple((<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"BMW"</span>,<span style="color: #008000;">"Toyota"</span>))<br /><span style="color: #800000;">print</span>(thetuple)</p>
+<p><span style="color: #808080;"># Return:&nbsp;('Benz', 'BMW', 'Toyota')</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>Python has a specific tuple data type for tuples.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thetuple = tuple((<span style="color: #008000;">1</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">110</span>, <span style="color: #008000;">34</span>))<br /><span style="color: #800000;">print</span>(<span style="color: #800000;">type</span>(thetuple))</p>
+<p><span style="color: #808080;"># Return:&nbsp;&lt;class 'tuple'&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>

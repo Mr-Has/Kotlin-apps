@@ -1,0 +1,48 @@
+<h1><span style="color: #000080;">Change items in list:</span></h1>
+<p>Accessing items in the list enables us to change a specific item in the list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span class="pythonstringcolor" style="color: #008000;">"Benz"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"BMW"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"Toyota"</span>]<br />thelist[<span class="pythonnumbercolor" style="color: #800000;">1</span>] =<span style="color: #008000;">&nbsp;<span class="pythonstringcolor">"Ford"</span></span><br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Multiple items:</span></h2>
+<p>We can add more than one item by passing a list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span class="pythonstringcolor" style="color: #008000;">"Benz"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"BMW"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"Toyota"</span>]<br />thelist[<span class="pythonnumbercolor" style="color: #800000;">1</span>] = [<span class="pythonstringcolor"><span style="color: #008000;">"Ford"</span>, <span style="color: #008000;">"Honda"</span>]</span><br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>Passing more than one item will return a list in the list.</p>
+<h2><span style="color: #000080;">Insert item:</span></h2>
+<p>Python provide <span style="color: #800000;">insert()</span> function to insert an item to list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>thelist = [<span class="pythonstringcolor" style="color: #008000;">"Benz"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"BMW"</span>,&nbsp;<span class="pythonstringcolor" style="color: #008000;">"Toyota"</span>]<br />thelist.<span style="color: #800000;">insert</span>(<span style="color: #800000;">1</span>,&nbsp;<span class="pythonstringcolor">"Ford")</span><br /><span class="pythonkeywordcolor" style="color: #800000;">print</span>(thelist)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p><span style="color: #800000;">insert()</span> function gets 2 arguments. First is the position the second is the new item.</p>
+<h2><span style="color: #000080;">Modify range of items:</span></h2>
+<p>We can change a range of items simply by passing the range of indexes with new items.&nbsp;</p>
+<p><strong>for example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Benz"</span>, <span style="color: #008000;">"BMW"</span>, <span style="color: #008000;">"Toyota"</span>, <span style="color: #008000;">"Ford"</span>, <span style="color: #008000;">"Honda"</span>, <span style="color: #008000;">"GMC"</span>]</p>
+<p>thelist[<span style="color: #800000;">1</span>:<span style="color: #800000;">3</span>] = [<span style="color: #008000;">"Fiat"</span>, <span style="color: #008000;">"Hyundai"</span>]</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+</td>
+</tr>
+</tbody>
+</table>

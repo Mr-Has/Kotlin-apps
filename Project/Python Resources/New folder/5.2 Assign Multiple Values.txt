@@ -1,0 +1,45 @@
+<h1><span style="color: #000080;">Multiple values:</span></h1>
+<p>Assign multiple values to multiple variables. Variable will be assigned to the values based on their order.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>a, b, c = <span style="color: #008000;">1</span>, <span style="color: #008000;">2</span>, <span style="color: #008000;">3</span>&nbsp; &nbsp; &nbsp; &nbsp;
+<p><span style="color: #800000;">print</span>(a)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p><span style="color: #800000;">print</span>(b)</p>
+<p><span style="color: #800000;">print</span>(c)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Unpack collection of values:</span></h2>
+<p>We can access each value of a collection (List, Tuple) by assigning them to variables.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>List = [<span style="color: #008000;">"Sam"</span>, <span style="color: #008000;">"Sara"</span>, <span style="color: #008000;">"John"</span>]</p>
+<p>a, b, c = List&nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p><span style="color: #800000;">print</span>(a)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p><span style="color: #800000;">print</span>(b)</p>
+<p><span style="color: #800000;">print</span>(c)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Multiple variables with one value:</span></h2>
+<p>Python allows us to assign one value to multiple variables.&nbsp;</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>a, b, c =<span style="color: #008000;"> 5</span></p>
+<p><span style="color: #800000;">print</span>(a)&nbsp; &nbsp;</p>
+<p><span style="color: #800000;">print</span>(b)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p><span style="color: #800000;">print</span>(c)</p>
+</td>
+</tr>
+</tbody>
+</table>

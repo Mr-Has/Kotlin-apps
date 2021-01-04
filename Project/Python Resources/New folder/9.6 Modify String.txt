@@ -1,0 +1,70 @@
+<h1><span style="color: #000080;">Modify string:</span></h1>
+<p>Python has many methods to modify string.</p>
+<p>These are some of the most frequently used methods.</p>
+<p><strong>Note:</strong></p>
+<p>You can find more methods in String Methods chapter.</p>
+<h2><span style="color: #000080;">Lower case:</span></h2>
+<p>The method <span style="color: #800000;">lower()</span> turns all the characters in a string to lowercase letter.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #008000;">"Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(x.<span style="color: #800000;">lower</span>())</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Upper case:</span></h2>
+<p>The method <span style="color: #800000;">upper()</span> turns all the characters in a string to uppercase letter.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x =<span style="color: #008000;"> "Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(x.<span style="color: #800000;">upper</span>())</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Replace string:</span></h2>
+<p>The <span style="color: #800000;">replace()</span> method replaces the specified characters in a string.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #008000;">"Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(x.<span style="color: #800000;">replace</span>(<span style="color: #008000;">"P"</span>, <span style="color: #008000;">"M"</span>))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Split string:</span></h2>
+<p>We can use the <span style="color: #800000;">split()</span> method to split a string to substrings based on specified separator.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = <span style="color: #008000;">"Python is awesome, and easy as well"</span></p>
+<p><span style="color: #800000;">print</span>(x.<span style="color: #800000;">split</span>(","))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Remove whitespace:</span></h2>
+<p>The <span style="color: #800000;">strip()</span> method removes all the white spaces before and after a string.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x =<span style="color: #008000;"> "Python is awesome"</span></p>
+<p>print(x.strip())</p>
+</td>
+</tr>
+</tbody>
+</table>

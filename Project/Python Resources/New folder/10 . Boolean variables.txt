@@ -1,0 +1,105 @@
+<h1><span style="color: #000080;">Boolean variables:</span></h1>
+<p>Boolean data type is either True or False. Python reserves True and False keywords for Boolean variables.</p>
+<p>By using Boolean we can evaluate an expression to find if it is True of False.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">5</span> &lt; <span style="color: #008000;">12</span>)</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">110</span> == <span style="color: #008000;">110</span>)</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">5</span> &gt; <span style="color: #008000;">12</span>)</p>
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">5</span> != <span style="color: #008000;">5</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>We can return the output of an if statement with condition as Boolean value.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x = 110<br />y = 12</p>
+<p><span style="color: #800000;">if</span> x &gt; y:<br /> <span style="color: #800000;">print</span>(<span style="color: #008000;">"x is greater than y"</span>)<br /><span style="color: #800000;">else</span>:<br /> <span style="color: #800000;">print</span>(<span style="color: #008000;">"y is greater than x"</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Python default:</span></h2>
+<p>By default, almost every value is set to be True in Python.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>a = <span style="color: #008000;">1</span></p>
+<p>b = <span style="color: #008000;">"Sam"</span></p>
+<p>c = <span style="color: #008000;">-3.14</span></p>
+<p>d = [<span style="color: #008000;">"Sam"</span>, <span style="color: #008000;">"Sara"</span>, <span style="color: #008000;">"John"</span>]</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(a))</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(b))</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(c))</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(d))</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">False values:</span></h2>
+<p>Empty values of any type, 0 and None are set to be False by default in Python.</p>
+<p><strong>Note:</strong></p>
+<p>The value False returns false as well.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p>a = <span style="color: #008000;">0</span></p>
+<p>b = <span style="color: #008000;">""</span></p>
+<p>c = None</p>
+<p>d = []</p>
+<p>e =&nbsp;{}</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(a))</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(b))</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(c))</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(d))</p>
+<p><span class="pythonkeywordcolor" style="color: #800000;">print</span>(<span class="pythonkeywordcolor" style="color: #800000;">bool</span>(e))</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Function with condition:</span></h2>
+<p>We can construct a function which returns True of False base on the provided condition.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #800000;">def</span> function() :<br />&nbsp; &nbsp;<span style="color: #800000;">return True</span></p>
+<p><span style="color: #800000;">if</span> function():<br />&nbsp; &nbsp;<span style="color: #800000;">print</span>(<span style="color: #008000;">"Yes"</span>)<br /><span style="color: #800000;">else</span>:<br />&nbsp; &nbsp;<span style="color: #800000;">print</span>(<span style="color: #008000;">"No"</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Built-in functions:</span></h2>
+<p><strong>Recall:</strong></p>
+<p>Python has many built-in functions that return True or False.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>a = <span style="color: #008000;">110</span></p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">isinstance</span>(a, <span style="color: #800000;">int</span>))</p>
+</td>
+</tr>
+</tbody>
+</table>

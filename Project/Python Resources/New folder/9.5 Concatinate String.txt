@@ -1,0 +1,30 @@
+<h1><span style="color: #000080;">String concatenation :</span></h1>
+<p>Concatenation means combining two or more strings using <span style="color: #800000;">+</span> operator.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x =<span style="color: #008000;">"Python"</span></p>
+<p>y = <span style="color: #008000;">"is"</span></p>
+<p>z = <span style="color: #008000;">"awesome"</span></p>
+<p>text = x <span style="color: #800000;">+</span> y <span style="color: #800000;">+</span> z</p>
+<p><span style="color: #800000;">print</span>(text)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong></p>
+<p>To print space between the words we can use quotations with empty space between them (<span style="color: #008000;">" "</span>).</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x =<span style="color: #008000;">"Python"</span></p>
+<p>y = <span style="color: #008000;">"awesome"</span></p>
+<p>text = x <span style="color: #800000;">+</span> <span style="color: #008000;">" "</span> <span style="color: #800000;">+</span> y</p>
+<p><span style="color: #800000;">print</span>(text)</p>
+</td>
+</tr>
+</tbody>
+</table>

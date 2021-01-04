@@ -1,0 +1,82 @@
+<h1><span style="color: #000080;">Variable Names:</span></h1>
+<p>Variable names are defined by the programmer. Variable names can be as short as a single character or more descriptive names but, variable naming has some rules that should be strictly applied.</p>
+<h2><span style="color: #000080;">Rules:</span></h2>
+<ul>
+<li>Variable name is built from alphabetic and numeric characters including underscore (_).</li>
+<li>Variable name cannot start with numbers.</li>
+<li>Variable name can start with underscore and alphabetic characters.</li>
+<li>Python is case sensitive, then (car, Car, CAr and CAR) are four different variable names.</li>
+</ul>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>variablename = <span style="color: #008000;">"Sam"</span></p>
+<p>variable_name =<span style="color: #008000;"> "Sam"</span></p>
+<p>_Variable_ =<span style="color: #008000;"> "Sam"</span></p>
+<p>VARIABLE = <span style="color: #008000;">"Sam"</span></p>
+<p>VariableName = <span style="color: #008000;">"Sam"</span></p>
+<p>Variable2 = <span style="color: #008000;">"Sam"</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Not acceptable:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>3 = <span style="color: #008000;">"Sam"</span></p>
+<p>variable-name =<span style="color: #008000;"> "Sam"</span></p>
+<p>variable name = <span style="color: #008000;">"Sam"</span></p>
+<p>2variable = <span style="color: #008000;">"Sam"</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Best practice:</span></h2>
+<p>Sometimes variable names can be a few words long and difficult to read. It is common to use these techniques to overcome this issue.</p>
+<ul>
+<li><strong>Camel Case:</strong></li>
+</ul>
+<p>Except the first word, all other words start with capital letter with no space.</p>
+<ul>
+<li style="list-style-type: none;">
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>CamelCaseVariableName = <span style="color: #008000;">"Camel Case"</span></td>
+</tr>
+</tbody>
+</table>
+</li>
+ <p></p>
+<li><strong>Snake Case:</strong></li>
+</ul>
+<p>All words are in lowercase format but, separated by underscore.</p>
+<ul>
+<li style="list-style-type: none;">
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>snake_case_variable_name = <span style="color: #008000;">"Snake Case"</span></td>
+</tr>
+</tbody>
+</table>
+</li>
+<p></p>
+<li><strong>Pascal Case:</strong></li>
+</ul>
+<p>All words including the first word start by capital letter with no space.</p>
+<ul>
+<li style="list-style-type: none;">
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>PascalCaseVariableName = <span style="color: #008000;">"Pascal Case"</span></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>

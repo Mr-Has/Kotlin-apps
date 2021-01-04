@@ -1,0 +1,110 @@
+<h1><span style="color: #000080;">Installing Python:</span></h1>
+<p>First let's check if your device has the Python installed on it, because many computers come with Python already installed on them.</p>
+<p><strong>For Windows:</strong></p>
+<p>Search in start bar for Python or simple type the below command-line in cmd.exe.</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>C:\Users\Your Name&gt;python --version</td>
+</tr>
+</tbody>
+</table>
+<p><strong>For Mac:</strong></p>
+<p>Open the terminal and type:&nbsp;</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>python --version</td>
+</tr>
+</tbody>
+</table>
+<p><strong>For Linux:</strong></p>
+<p>Open the command line and insert:</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>python --version</td>
+</tr>
+</tbody>
+</table>
+<p>If there was no Python installed on your device you can simple install it on your device by visiting&nbsp;<a href="https://www.python.org/">https://www.python.org/</a>.</p>
+<p>Note:</p>
+<p>Just make sure to choose the appropriate version, which is suitable for your device, and do not forget to add Python to the path during installation.</p>
+<h2><span style="color: #000080;">Quick start:</span></h2>
+<p>Python is an interpreted programming language.</p>
+<p>Simply that means we can write Python (.py) lines in any text editor then, execute the file using Python interpreter.</p>
+<p><strong>Let's try it:</strong></p>
+<p>Open any text editor of your choice and type the following line in it and, save it as helloworld.py.</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #800000;">print</span>(<span style="color: #008000;">"Hello, World!"</span>)</td>
+</tr>
+</tbody>
+</table>
+<p>Now open the command line on your device and navigate to the directory where you have saved the helloworld.py file, then type:</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>C:\Users\Your Name&gt;python helloworld.py</td>
+</tr>
+</tbody>
+</table>
+<p>The output should be:&nbsp;&nbsp;</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>Hello, World!</td>
+</tr>
+</tbody>
+</table>
+<p>You did it.&nbsp;</p>
+<p>You created and executed a Python file.&nbsp;</p>
+<h2><span style="color: #000080;">Execute Python on command line:</span></h2>
+<p>The fastest way to run some line of code is by executing it in command line. Python can be run as a command line itself.</p>
+<p>Type the following command in command line:</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>C:\Users\Your Name&gt;python</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>or</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>C:\Users\Your Name&gt;py</td>
+</tr>
+</tbody>
+</table>
+<p>Now you can run any line of Python code in command line.</p>
+<p>Let's try Hello, World!</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #808080;">C:\Users\Your Name&gt;python</span></p>
+<p><span style="color: #808080;">Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)] on win32</span></p>
+<p><span style="color: #808080;">Type "help", "copyright", "credits" or "license" for more information.</span></p>
+<p>&gt;&gt;&gt; print("Hello, World!")</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>And the output will be:</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #808080;">C:\Users\rezam&gt;python</span></p>
+<p><span style="color: #808080;">Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:57:54) [MSC v.1924 64 bit (AMD64)] on win32</span></p>
+<p><span style="color: #808080;">Type "help", "copyright", "credits" or "license" for more information.</span></p>
+<p><span style="color: #808080;">&gt;&gt;&gt; print("Hello, World!")</span></p>
+<p>Hello, World!</p>
+&gt;&gt;&gt;</td>
+</tr>
+</tbody>
+</table>
+<p>Finally you can exit the command line simply by typing <span style="color: #000080;">exit()</span> in command line.&nbsp;</p>

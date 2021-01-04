@@ -1,0 +1,102 @@
+<h1><span style="color: #000080;">String:</span></h1>
+<h2><span style="color: #000080;">Creatin string:</span></h2>
+<p>We can create string in Python simply by placing characters&nbsp;between quotes.&nbsp;</p>
+<p>Single and double quotes are acceptable in Python and even we can use triple quotes to indicate multiple lines string.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>w = <span style="color: #008000;">"Sam"</span></p>
+<p>x = <span style="color: #008000;">'Sam'</span></p>
+<p>y =<span style="color: #008000;"> """ This is multiple</span></p>
+<p><span style="color: #008000;">lines, which are defined</span></p>
+<p><span style="color: #008000;">by triple double quotes """</span></p>
+<p>z =<span style="color: #008000;"> ''' This is multiple</span></p>
+<p><span style="color: #008000;">lines, which are defined</span></p>
+<p><span style="color: #008000;">by triple single quotes '''</span></p>
+<p>&nbsp;</p>
+<p><span style="color: #800000;">print</span>(w)</p>
+<p><span style="color: #800000;">print</span>(x)</p>
+<p><span style="color: #800000;">print</span>(y)</p>
+<p><span style="color: #800000;">print</span>(z)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Access Values in string:</span></h2>
+<p>String in Python is an array, therefore accessing the specific value in a string is done by passing the index of the value between the square brackets [ ].</p>
+<p>Python let us access a range of characters as well.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>x =<span style="color: #008000;"> "Python is awesome!"</span></p>
+<p><span style="color: #800000;">print</span>(x[5])</p>
+<p># Access range</p>
+<p>x = <span style="color: #008000;">"Python is awesome!"</span></p>
+<p><span style="color: #800000;">print</span>(x[1:5])</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Loop through a string:</span></h2>
+<p>As we know by now, string is an array, so we can loop through the string with a <span style="color: #800000;">for</span> loop.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: #000000 3px 3px 10px; width: 191.5px;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td style="width: 181.5px;">
+<p>a = <span style="color: #008000;">"Python is awesome"</span></p>
+<p><span style="color: #800000;">for</span> i <span style="color: #800000;">in</span> a:</p>
+<p>&nbsp; &nbsp;<span style="color: #800000;">print</span>(i)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Checking character in string:</span></h2>
+<p>Python provides <span style="color: #800000;">in</span> and <span style="color: #800000;">not in</span> keywords to find if a character or a word is in a string.</p>
+<p>These keywords can return True or False as well as a print statement.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>txt = <span style="color: #008000;">"Learning Python will enhance my future"</span><br /><span style="color: #800000;">print</span>(<span style="color: #008000;">"Python"</span> <span style="color: #800000;">in</span> txt)</p>
+<p><span style="color: #808080;"># Above statement will return True</span></p>
+<p><span style="color: #808080;"># Below statement will return False</span></p>
+<p>txt = <span style="color: #008000;">"Learning Python will enhance my future"</span><br /><span style="color: #800000;">print</span>(<span style="color: #008000;">"Java"</span> <span style="color: #800000;">not in</span> txt)</p>
+</td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #808080;"># in</span></p>
+<p>text = <span style="color: #008000;">"Learning Python will enhance my future"</span><br /><span style="color: #800000;">if</span> <span style="color: #008000;">"Python"</span> <span style="color: #800000;">in</span> text :<br />&nbsp; &nbsp;<span style="color: #800000;">print</span>(<span style="color: #008000;">"Python is in the statement"</span>)</p>
+<p><span style="color: #808080;"># not in</span></p>
+<p>text = <span style="color: #008000;">"Learning Python will enhance my future"</span><br /><span style="color: #800000;">if</span> <span style="color: #008000;">"Java"</span> <span style="color: #800000;">not in</span> text :<br />&nbsp; &nbsp;<span style="color: #800000;">print</span>(<span style="color: #008000;">"Java is not in the statement"</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Length of string:</span></h2>
+<p>Getting the length of a string is done by passing the string to len() and printing it to the console.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<table border="1">
+<tbody>
+<tr>
+<td>
+<p>a = <span style="color: #008000;">"Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(<span style="color: #800000;">len</span>(a))</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>

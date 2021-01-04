@@ -1,0 +1,105 @@
+<h1><span style="color: #000080;">Sort list:</span></h1>
+<p>Python provides <span style="color: #800000;">sort()</span> method by default to sort list&nbsp;alphanumerically, ascending.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Toyota"</span>,<span style="color: #008000;">"Ford"</span>,<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"Honda"</span>,<span style="color: #008000;">"BMW"</span>]</p>
+<p>thelist.<span style="color: #800000;">sort</span>()</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+<p><span style="color: #808080;"># Returns:['BMW','Benz','Ford','Honda','Toyota']</span></p>
+</td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">214</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">110</span>, <span style="color: #008000;">14</span>, <span style="color: #008000;">34</span>]</p>
+<p>thelist.<span style="color: #800000;">sort</span>()</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;[5, 12, 14, 34, 110, 214]</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="color: #800000;">sorted()</span> method will return a new list with sorted items.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">214</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">110</span>, <span style="color: #008000;">14</span>, <span style="color: #008000;">34</span>]<br />newlist = <span style="color: #800000;">sorted</span>(thelist)<br /><span style="color: #800000;">print</span>(newlist)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;[5, 12, 14, 34, 110, 214]</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Descending sort:</span></h2>
+<p>We can pass the reverse argument and set it to <span style="color: #800000;">True</span> to <span style="color: #800000;">sort()</span> method if we want a descending sorted list.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"Toyota"</span>,<span style="color: #008000;">"Ford"</span>,<span style="color: #008000;">"Benz"</span>,<span style="color: #008000;">"Honda"</span>,<span style="color: #008000;">"BMW"</span>]</p>
+<p>thelist.<span style="color: #800000;">sort</span>(<span style="color: #800000;">reverse</span> = True)</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+<p><span style="color: #808080;"># Returns: ['Toyota','Honda','Ford','Benz','BMW']</span></p>
+</td>
+</tr>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">214</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">110</span>, <span style="color: #008000;">14</span>, <span style="color: #008000;">34</span>]</p>
+<p>thelist.<span style="color: #800000;">sort</span>(<span style="color: #800000;">reverse</span> = True)</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+<p><span style="color: #808080;"># Returns: [214, 110, 34, 14, 12, 5]</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Case sensitivity:</span></h2>
+<p><span style="color: #800000;">sort()</span> method is case sensitive. Basically, it positions the uppercase letters before the lowercase letters.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"c"</span>,<span style="color: #008000;">"d"</span>,<span style="color: #008000;">"b"</span>,<span style="color: #008000;">"C"</span>,<span style="color: #008000;">"B"</span>,<span style="color: #008000;">"a"</span>,<span style="color: #008000;">"A"</span>,<span style="color: #008000;">"D"</span>]</p>
+<p>thelist.<span style="color: #800000;">sort</span>()</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+<p><span style="color: #808080;"># Return:&nbsp;['A', 'B', 'C', 'D', 'a', 'b', 'c', 'd']</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Case insensitive:</span></h2>
+<p>We can pass a <span style="color: #800000;">keyword argument</span> to <span style="color: #800000;">sort()</span> method if returning lowercase letters before uppercase letters is the case.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>thelist = [<span style="color: #008000;">"c"</span>,<span style="color: #008000;">"d"</span>,<span style="color: #008000;">"b"</span>,<span style="color: #008000;">"C"</span>,<span style="color: #008000;">"B"</span>,<span style="color: #008000;">"a"</span>,<span style="color: #008000;">"A"</span>,<span style="color: #008000;">"D"</span>]</p>
+<p>thelist.<span style="color: #800000;">sort</span>(<span style="color: #000000;">key </span>= <span style="color: #800000;">str</span>.<span style="color: #000000;">lower</span>)</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+<p><span style="color: #808080;"># Return:&nbsp;['a', 'A', 'b', 'B', 'c', 'C', 'd', 'D']</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Customizing sort function:</span></h2>
+<p>We can have our own keyword argument and pass it to <span style="color: #800000;">sort()</span> function to have a customized output.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #800000;">def</span> <span style="color: #800000;">func</span>(a):<br />&nbsp; &nbsp;<span style="color: #800000;">return abs</span>(a - 0)</p>
+<p>thelist = [<span style="color: #008000;">110</span>, <span style="color: #008000;">5</span>, <span style="color: #008000;">12</span>, <span style="color: #008000;">14</span>, <span style="color: #008000;">34</span>, <span style="color: #008000;">75</span>]</p>
+<p>thelist.<span style="color: #800000;">sort</span>(key = <span style="color: #800000;">func</span>)</p>
+<p><span style="color: #800000;">print</span>(thelist)</p>
+<p><span style="color: #808080;"># Returns:&nbsp;[5, 12, 14, 34, 75, 110]</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The output will be a list of values based on how close they are to 0.</p>

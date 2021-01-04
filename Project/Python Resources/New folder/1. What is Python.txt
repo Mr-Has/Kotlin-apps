@@ -1,0 +1,42 @@
+<h1><span style="color: #000080;"><strong>What is Python?</strong></span></h1>
+<p>Python is one of the most popular programming languages, which was created and released by Guido Van Rossum in 1991.</p>
+<p>List, garbage collection system, comprehensions are some of the features that were introduced with Python2 in 2000.</p>
+<p>Python 3 was introduced in 2008. It was a major revision of the Python language which is not backward compatible. Basically, the codes work on Python3 cannot be used on Python2 and&nbsp;vice versa.</p>
+<p>In this course all the presented lines of codes are compatible with Python3.</p>
+<h2><span style="color: #000080;"><strong>Python is widely used for:</strong></span></h2>
+<ul>
+<li>Software development</li>
+<li>System scripting</li>
+<li>Mathematics</li>
+<li>Data science</li>
+<li>Web development</li>
+</ul>
+<h2><span style="color: #000080;"><strong>Why to choose Python:</strong></span></h2>
+<ul>
+<li><strong>Readability:</strong> Python uses English Language syntax.</li>
+<li><strong>Portability:</strong> Python is available for many platforms (Linux, Pi, Windows, Mac, etc.).</li>
+<li><strong>Simplicity</strong>: Python programs require fewer lines of code.</li>
+<li><strong>Usability:</strong> Python codes can be executed in several ways (Object oriented, Functional, Procedural).</li>
+<li><strong>Speedy:</strong> Python can be executed as soon as its written-on interpreter systems.</li>
+</ul>
+<p>Note: Don't worry if some of these words appear strange,</p>
+<p>we will explore all of these and much more together in this course.</p>
+<h2><span style="color: #000080;"><strong>What can we use Python for?</strong></span></h2>
+<ul>
+<li>Create a calculator&nbsp;</li>
+<li>Mine Facebook data</li>
+<li>Build your own Blockchain</li>
+<li>Start your carrier in Machin learning</li>
+<li>Automate boring tasks</li>
+<li>Get updated on latest news</li>
+<li>Create bots</li>
+<li>Scrap websites</li>
+<li>Develop websites with Django</li>
+<li>Write blogs by Flask</li>
+<li>Develop games with Pygame</li>
+<li>Build your app with Kivy</li>
+</ul>
+<p>I think you should be impressed by the abilities we are going to add to our resumes by learning Python.&nbsp;</p>
+<p>So, Without Further Ado&nbsp;</p>
+<p>Let's Start&nbsp;<img src="https://html5-editor.net/tinymce/plugins/emoticons/img/smiley-wink.gif" alt="wink" /></p>
+<p>&nbsp;</p>

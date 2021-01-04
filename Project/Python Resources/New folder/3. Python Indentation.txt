@@ -1,0 +1,63 @@
+<h1><span style="color: #000080;">Python Indentation:</span></h1>
+<p>Indentation is the spaces left empty at the beginning of a code line.</p>
+<p>Python indentation purpose is to indicate the <strong>block of code</strong>, therefore indentation is very important in Python.&nbsp;</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #800000;">if</span> 2 &gt; 1:
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">print</span>(<span style="color: #008000;">"2 is greater then 1"</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>You will have an error if you try this code without indentation.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #800000;">if</span> 2 &gt; 1:
+<p><span style="color: #800000;">print</span>(<span style="color: #008000;">"2 is greater then 1"</span>)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>You as a programmer can decide on how many indentations to add but, must keep in mind that there must be at least one and the indentation must be consistent.&nbsp;</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #800000;">if</span> 2 &gt; 1:
+<p><span style="color: #800000;">&nbsp; &nbsp; print</span>(<span style="color: #008000;">"2 is greater then 1"</span>)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #800000;">print</span>(<span style="color: #008000;">"Some more indentation"</span>)&nbsp;&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Python Variables:</span></h2>
+<p>We can create variable in Python just by assigning a value to it.</p>
+<p>Let's make two variables:</p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td><span style="color: #800000;">x <span style="color: #000000;">=</span> <span style="color: #008000;">5</span></span><br />
+<p><span style="color: #800000;">y</span> = <span style="color: #008000;">"Python is awesome"</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Comments:</span></h2>
+<p>The best practice to keep the line of codes organized is by describing the block of codes in a comment which describe the code.</p>
+<p>For this purpose, Python has a comment capability.</p>
+<p>Any line starts with # will be considered as a comment and Python will not execute it.&nbsp;</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p><span style="color: #808080;"># This is a comment, and it won't be executed.</span></p>
+<p><span style="color: #808080;"># This is the second comment.&nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>

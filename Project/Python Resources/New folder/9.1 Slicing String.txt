@@ -1,0 +1,46 @@
+<h1><span style="color: #000080;">Slicing string:</span></h1>
+<p>The process of getting a range of characters from a string is called slicing.</p>
+<p>Slicing is done by specifying the indices of the required characters.</p>
+<p><strong>Note:</strong></p>
+<p>As we discussed before sting is an array, so the first index is 0.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>txt =<span style="color: #008000;"> "Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(txt [3<span style="color: #800000;">:</span>8])</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #000080;">Negative slicing:</span></h2>
+<p>Passing negative indexes will return the characters from the end of string.</p>
+<p><strong>Note:</strong></p>
+<p>In this case the last character will be index 0.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>txt = <span style="color: #008000;">"Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(txt [-8<span style="color: #800000;">:</span>-2])</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Just like array, if we do not pass the beginning and end value, Python by default will start from the first or continue to the last index.</p>
+<p><strong>For example:</strong></p>
+<table style="margin: auto; box-shadow: 3px 3px 10px #000;" border="1">
+<tbody>
+<tr style="background-color: rgba(0,0,0,0.1);">
+<td>
+<p>txt =<span style="color: #008000;"> "Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(txt [3<span style="color: #800000;">:</span>])&nbsp; <span style="color: #808080;"># From 3rd character to end</span></p>
+<p>&nbsp;</p>
+<p>txt = <span style="color: #008000;">"Python is awesome"</span></p>
+<p><span style="color: #800000;">print</span>(txt [<span style="color: #800000;">:</span>8])&nbsp; &nbsp;<span style="color: #808080;"># From first to 8th&nbsp;character</span></p>
+</td>
+</tr>
+</tbody>
+</table>
